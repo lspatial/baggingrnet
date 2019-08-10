@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: baggingrnet
-Version: 0.0.1
+Version: 0.0.6
 Summary: Library for Bagging of Deep Residual Neural Networks
 Home-page: UNKNOWN
 Author: Lianfa Li
@@ -30,13 +30,13 @@ Description: baggingrnet: Library for Bagging of Deep Residual Neural Networks
         
         ### Modeling Framework
         
-        The modeling is based on bagging of the encoding-decoding antoencoder based deep residual multilayer percepton (MLP). Residual connections were used from the encoding to decoding layers to improve the learning efficiency and use of bagging is to achieve the stable and improved ensemble predictions, with uncertainty metric (standard deviation). <img  align="center" src="figs/framework.jpg"  style="zoom:50%"  hspace="2"/>
+        The modeling is based on bagging of the encoding-decoding antoencoder based deep residual multilayer percepton (MLP). Residual connections were used from the encoding to decoding layers to improve the learning efficiency and use of bagging is to achieve the stable and improved ensemble predictions, with uncertainty metric (standard deviation). <img  align="center" src="https://github.com/lspatial/baggingrnet/raw/master/figs/framework.jpg"  style="zoom:50%"  hspace="2"/>
         
         The relevant paper will be published and will update here once published.
         
         ### Example 1: Regression of Simulated Data
         
-        The dataset is simulated using the following formula:
+        The dataset is simulated using the following formula: <img  align="center" src="figs/simform.png"  hspace="2"/>
         
         each covariate defined as:
         *x*<sub>1</sub> ∼ *U*(1, 100),*x*<sub>2</sub> ∼ *U*(0, 100),*x*<sub>3</sub> ∼ *U*(1, 10),*x*<sub>4</sub> ∼ *U*(1, 100),*x*<sub>5</sub> ∼ *U*(9, 100),*x*<sub>6</sub> ∼ *U*(1, 1009),*x*<sub>7</sub> ∼ *U*(5, 300),*x*<sub>8</sub> *U*(6 ∼ 200)
@@ -368,7 +368,7 @@ Description: baggingrnet: Library for Bagging of Deep Residual Neural Networks
         
         This dataset is the real dataset of the 2015 PM<sub>2.5</sub> and the relevant covariates for the Beijing-Tianjin-Tangshan area. Due to data security reason, it has been added with small Gaussian noise.
         
-        <img  align="center" src="figs/studyregion.png"  style="zoom:65%"  hspace="2"/>
+        <img  align="center" src="https://raw.githubusercontent.com/lspatial/baggingrnet/master/figs/studyregion.png"  style="zoom:65%"  hspace="2"/>
         
         ###### 1) Load input data:
         
@@ -1045,17 +1045,37 @@ Description: baggingrnet: Library for Bagging of Deep Residual Neural Networks
         
         ###### 3) Performance (R2 and RMSE) of the ensembled predictions based on multiple models for the independent dataset:
         
-            ## [1] "non residual model   r2: 0.87, rmse: 24.85"
+            ## [1] "non residual model   r2: 0.88, rmse: 23.55"
         
             ## [1] "residual model   r2: 0.91, rmse: 20.35"
         
-            ## [1] "Residual model improved R2 by 4.3%, compared with non-residual model"
+            ## [1] "Residual model improved R2 by 2.97%, compared with non-residual model"
         
-            ## [1] "Residual model decreased rmse by -4.5, compared with non-residual model"
+            ## [1] "Residual model decreased rmse by -3.2, compared with non-residual model"
         
         ###### 4) Scatter plots for the ensemble predictions of non-residual vs residual models:
         
         ![](README_files/figure-markdown_github/unnamed-chunk-22-1.png)
+        
+        ###### 5) Comparison of ensemble predictions vs. predictions of single models:
+        
+        Statistics of the performance for the predictions of multiple models and ensemble predictions are made. The following shows R<sup>2</sup> and RMSE, barplots and scatter plots.
+        
+        Performance digits:
+        
+            ## [1] "Ensemble predictions: R2=0.91, RMSE=20.35"
+        
+            ## [1] "Mean performance of predictions of multiple single models: R2=0.86, RMSE=26.07"
+        
+            ## [1] "Ensemble predictions averagely improved the single predictions by 6% for R2, and reduced -5.72mu/m3 for RMSE"
+        
+        The boxplot shows considerable improvement by bagging (6% in R<sup>2</sup> and -5.72 *μ*g/m<sup>3</sup>), in comparison with single models.
+        
+        ![](README_files/figure-markdown_github/unnamed-chunk-24-1.png)
+        
+        The following shows the scatter plots of observed PM<sub>2.5</sub> vs. ensemble predictions/residuals:
+        
+        ![](README_files/figure-markdown_github/unnamed-chunk-25-1.png)
         
         ### Contact
         

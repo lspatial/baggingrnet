@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21923f2a-daff-4df0-a894-286d152c992f" name="Default" comment="" />
+    <list default="true" id="21923f2a-daff-4df0-a894-286d152c992f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/prop/1EA99B9A" afterPath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/prop/1EA99B9A" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/prop/3439D180" afterPath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/prop/3439D180" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/prop/INDEX" afterPath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/prop/INDEX" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/s-a231a395/1DC8E0E6" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/s-a231a395/1DC8E0E6-contents" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/s-a231a395/210C1D9F-contents" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/s-a231a395/4155FEB4-contents" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/s-a231a395/7E57B68C-contents" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/s-a231a395/87D21427" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/s-a231a395/87D21427-contents" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/s-a231a395/8C9D1FFF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/s-a231a395/8C9D1FFF-contents" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/s-a231a395/B421F709-contents" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/s-a231a395/F3E6F332-contents" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/s-a231a395/lock_file" afterPath="$PROJECT_DIR$/.Rproj.user/595C5D26/sources/s-a231a395/lock_file" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/AB32F6FE-README/1/595C5D26a231a395/chunks.json" afterPath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/AB32F6FE-README/1/595C5D26a231a395/chunks.json" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/AB32F6FE-README/1/s/ccjusnmqke8y3/000086.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/AB32F6FE-README/1/s/ccjusnmqke8y3/000088.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/AB32F6FE-README/1/s/ccjusnmqke8y3/00008a.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/AB32F6FE-README/1/s/ccjusnmqke8y3/00008c.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/AB32F6FE-README/1/s/ccjusnmqke8y3/00008e.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/AB32F6FE-README/1/s/ccjusnmqke8y3/000090.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/AB32F6FE-README/1/s/ccjusnmqke8y3/000091.metadata" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/AB32F6FE-README/1/s/ccjusnmqke8y3/000091.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/AB32F6FE-README/1/s/chunks.json" afterPath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/AB32F6FE-README/1/s/chunks.json" />
+      <change beforePath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/paths" afterPath="$PROJECT_DIR$/.Rproj.user/shared/notebooks/paths" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.Rmd" afterPath="$PROJECT_DIR$/README.Rmd" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/README_files/figure-markdown_github/unnamed-chunk-22-1.png" afterPath="$PROJECT_DIR$/README_files/figure-markdown_github/unnamed-chunk-22-1.png" />
+      <change beforePath="$PROJECT_DIR$/baggingrnet.egg-info/PKG-INFO" afterPath="$PROJECT_DIR$/baggingrnet.egg-info/PKG-INFO" />
+      <change beforePath="$PROJECT_DIR$/baggingrnet/__init__.py" afterPath="$PROJECT_DIR$/baggingrnet/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/build/lib.linux-x86_64-3.4/baggingrnet/__init__.py" afterPath="$PROJECT_DIR$/build/lib.linux-x86_64-3.4/baggingrnet/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/dist/baggingrnet-0.0.1.tar.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
+      <change beforePath="$PROJECT_DIR$/src/baggingrnet.egg-info/PKG-INFO" afterPath="$PROJECT_DIR$/src/baggingrnet.egg-info/PKG-INFO" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,36 +51,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="testsim.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/testsim.py">
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="297">
+              <caret line="153" column="71" lean-forward="false" selection-start-line="153" selection-start-column="71" selection-end-line="153" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testpm25_2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/testpm25_2.py">
+      <file leaf-file-name="PKG-INFO" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/baggingrnet.egg-info/PKG-INFO">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="36">
+              <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PKG-INFO" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baggingrnet.egg-info/PKG-INFO">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/baggingrnet/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="268">
-                <caret line="367" column="0" lean-forward="true" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
+              <first_editor relative-caret-position="7225">
+                <caret line="967" column="0" lean-forward="false" selection-start-line="967" selection-start-column="0" selection-end-line="967" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -79,6 +132,9 @@
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -97,7 +153,6 @@
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/resautonet/model/resAutoencoder.py" />
         <option value="$PROJECT_DIR$/resautonet/data/data.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/resautonet/src/bindings.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/MANIFEST.in" />
@@ -112,7 +167,6 @@
         <option value="$PROJECT_DIR$/baggingrnet/data/__init__.py" />
         <option value="$PROJECT_DIR$/baggingrnet/bagmodel/baggingpre.py" />
         <option value="$PROJECT_DIR$/baggingrnet/bagmodel/bagging.py" />
-        <option value="$PROJECT_DIR$/baggingrnet/__init__.py" />
         <option value="$PROJECT_DIR$/baggingrnet/model/resnet.py" />
         <option value="$PROJECT_DIR$/tests/testpredict.py" />
         <option value="$PROJECT_DIR$/tests/test.py" />
@@ -130,18 +184,21 @@
         <option value="$PROJECT_DIR$/tests/testpm25.py" />
         <option value="$PROJECT_DIR$/tests/testpm25_2.py" />
         <option value="$PROJECT_DIR$/baggingrnet/model/bagging.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/baggingrnet.egg-info/PKG-INFO" />
         <option value="$PROJECT_DIR$/src/baggingrnet.egg-info/PKG-INFO" />
+        <option value="$PROJECT_DIR$/baggingrnet/__init__.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="118" />
-    <option name="y" value="133" />
+    <option name="x" value="84" />
+    <option name="y" value="156" />
     <option name="width" value="1571" />
-    <option name="height" value="791" />
+    <option name="height" value="793" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -164,6 +221,27 @@
             <path>
               <item name="baggingrnet" type="b2602c69:ProjectViewProjectNode" />
               <item name="baggingrnet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baggingrnet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baggingrnet" type="462c0819:PsiDirectoryNode" />
+              <item name="baggingrnet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baggingrnet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baggingrnet" type="462c0819:PsiDirectoryNode" />
+              <item name="baggingrnet.egg-info" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baggingrnet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baggingrnet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baggingrnet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baggingrnet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="baggingrnet.egg-info" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -445,15 +523,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="118" y="133" width="1571" height="791" extended-state="1" />
+    <frame x="84" y="156" width="1571" height="793" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17450683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08294931" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.083333336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869165" sideWeight="0.80728376" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869165" sideWeight="0.80728376" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291592" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40212443" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -771,34 +850,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baggingrnet.egg-info/PKG-INFO">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baggingrnet.egg-info/PKG-INFO">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="85" column="87" lean-forward="false" selection-start-line="85" selection-start-column="87" selection-end-line="85" selection-end-column="87" />
           <folding />
         </state>
       </provider>
@@ -830,29 +885,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/baggingrnet/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baggingrnet.egg-info/not-zip-safe">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="161" column="77" lean-forward="false" selection-start-line="161" selection-start-column="70" selection-end-line="161" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -875,9 +912,9 @@
     <entry file="file://$PROJECT_DIR$/tests/testsim.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
-          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -885,10 +922,18 @@
     <entry file="file://$PROJECT_DIR$/tests/testpm25_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
-          <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+          <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -900,11 +945,43 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="268">
-            <caret line="367" column="0" lean-forward="true" selection-start-line="367" selection-start-column="0" selection-end-line="367" selection-end-column="0" />
+          <first_editor relative-caret-position="7225">
+            <caret line="967" column="0" lean-forward="false" selection-start-line="967" selection-start-column="0" selection-end-line="967" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baggingrnet.egg-info/PKG-INFO">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baggingrnet.egg-info/PKG-INFO">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/baggingrnet/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="153" column="71" lean-forward="false" selection-start-line="153" selection-start-column="71" selection-end-line="153" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>

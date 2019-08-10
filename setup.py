@@ -15,7 +15,7 @@ import io
 with io.open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
-__version__ = '0.0.1'
+__version__ = '0.0.6'
 
 class get_pybind_include(object):
     """Helper class to determine the pybind11 include path

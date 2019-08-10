@@ -29,5 +29,5 @@ from baggingrnet.data.simulatedata import simData
 from baggingrnet import model
 from baggingrnet import util
 
-__version__ = '0.0.1'
+__version__ = '0.0.6'
 

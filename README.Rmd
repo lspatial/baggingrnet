@@ -61,12 +61,13 @@ def chkpath(tpath):
 ### Modeling Framework  
 
 The modeling is based on bagging of the encoding-decoding antoencoder based deep residual multilayer percepton (MLP). Residual connections were used from the encoding to decoding layers to improve the learning efficiency and use of bagging is to achieve the stable  and improved ensemble predictions, with uncertainty metric (standard deviation). 
-<img  align="center" src="figs/framework.jpg"  style="zoom:50%"  hspace="2"/>
+<img  align="center" src="https://github.com/lspatial/baggingrnet/raw/master/figs/framework.jpg"  style="zoom:50%"  hspace="2"/>
 
 The relevant paper will be published and will update here once published. 
 
 ### Example 1: Regression of Simulated Data  
 The dataset is simulated using the following formula:
+<img  align="center" src="figs/simform.png"  hspace="2"/>
 
 each covariate defined as:
 $$       x_1 \sim U(1,100), x_2 \sim U(0,100), x_3 \sim U(1,10), x_4 \sim U(1,100),  
@@ -230,7 +231,7 @@ legend(-300,-600,col=c("black","red"),lty=c(NA,1),pch=c(1,NA),bty="n",
 
 This dataset is the real dataset of the 2015 PM<sub>2.5</sub> and the relevant covariates for the Beijing-Tianjin-Tangshan area. Due to data security reason, it has been added with small Gaussian noise.  
 
-<img  align="center" src="figs/studyregion.png"  style="zoom:65%"  hspace="2"/> 
+<img  align="center" src="https://raw.githubusercontent.com/lspatial/baggingrnet/master/figs/studyregion.png"  style="zoom:65%"  hspace="2"/>
 
 ###### 1) Load input data: 
 
@@ -383,6 +384,76 @@ lines(c(0,900),c(0,900),col="red")
 legend(300,200,col=c("black","red"),lty=c(NA,1),pch=c(1,NA),bty="n",
        legend=c("Sample","Reference line"))
 
+```
+
+###### 5) Comparison of ensemble predictions vs. predictions of single models: 
+
+Statistics of the performance for the predictions of multiple models and ensemble predictions are made. The following shows R<sup>2</sup> and RMSE, barplots and scatter plots.
+
+Performance digits: 
+
+```{r eval=TRUE, echo=FALSE}
+library(sptemExp)
+tpath="/testpath/baggingpm25_2p/res/aggpreds_eval.csv"
+ensepre=read.csv(tpath,row.names = NULL)
+
+rpath="/testpath/baggingpm25_2p/res"
+fls=list.files(rpath)
+fls=fls[grep("tpre\\.csv$",fls)] 
+
+allr2=c()
+allrmse=c()
+for(i in c(1:80)){ # i=1 
+  afl=paste(rpath,"/",fls[i],sep="")
+  adt=read.csv(afl,row.names = NULL)
+  index=match(adt$gindex,ensepre$gindex)
+  adt$obs=ensepre[index,"pm25_davg"]
+  r2=rSquared(adt$obs,adt$obs-adt$pre)
+  rmse=rmse(adt$obs,adt$pre)
+  allr2=c(allr2,r2)
+  allrmse=c(allrmse,rmse)
+}
+
+r2ens=rSquared(ensepre$pm25_davg,ensepre$pm25_davg-ensepre$mean)
+rmseens=rmse(ensepre$pm25_davg,ensepre$mean) 
+print(paste("Ensemble predictions: R2=",round(r2ens,2),", RMSE=",round(rmseens,2),sep=""))
+print(paste("Mean performance of predictions of multiple single models: R2=",round(mean(allr2),2),", RMSE=",round(mean(allrmse),2),sep=""))
+print(paste("Ensemble predictions averagely improved the single predictions by ",
+               round(r2ens-mean(allr2),2)*100,"% for R2, and reduced ",round(rmseens-mean(allrmse),2),"mu/m3 for RMSE",sep=""))
+
+```
+
+The boxplot shows considerable improvement by bagging (6% in R<sup>2</sup> and -5.72 $\mu$g/m<sup>3</sup>), in comparison with single models. 
+
+```{r eval=TRUE, echo=FALSE,fig.width=8, fig.height=3,dpi=100}
+
+par(mfrow=c(1,2),mar=c(4,4.3,1,1))
+boxplot(allr2,main="", ylab=expression("Distribution of R"^2),xaxt="n",xlim=c(0.8,1.2),ylim=c(0.8,0.95))
+axis(1, labels=c(expression("Models")), at=1, las=1)
+lines(c(0.9,1.1),c(0.91,0.91),col="red")
+text(1,0.93,labels=expression("Ensemble R"^2),cex=0.8)
+
+boxplot(allrmse,main="", ylab=expression("Distribution of RMSE"),xaxt="n",xlim=c(0.8,1.2),ylim=c(19,29))
+axis(1, labels=c(expression("Models")), at=1, las=1)
+lines(c(0.9,1.1),c(rmseens,rmseens),col="red")
+text(1,21,labels=expression("Ensemble RMSE"),cex=0.7)
+```
+
+The following shows the scatter plots of observed PM<sub>2.5</sub> vs. ensemble predictions/residuals: 
+
+```{r eval=TRUE, echo=FALSE,fig.width=8, fig.height=3,dpi=100}
+par(mfrow=c(1,2),mar=c(4,4.3,1,1))
+plot(ensepre$pm25_davg,ensepre$mean,xlab=expression("Observed PM"[2.5]*" ("*mu*"g/m"^3*")"),
+     ylab=expression("Predicted PM"[2.5]*" ("*mu*"g/m"^3*")"),xlim=c(0,600),ylim=c(0,600))
+lines(c(0,700),c(0,700),col="red")
+legend(0,600,bty="n",pch=c(1,NA),lty=c(NA,1),col=c("black","red"),seg.len = 2,
+       legend=c("Sample point","Reference line"),cex=0.8)
+
+plot(ensepre$pm25_davg,ensepre$pm25_davg-ensepre$mean,xlab=expression("Observed PM"[2.5]*" ("*mu*"g/m"^3*")"),
+     ylab=expression("Residual PM"[2.5]*" ("*mu*"g/m"^3*")"),xlim=c(0,600),ylim=c(-300,300))
+lines(c(0,700),c(0,0),col="red")
+legend(0,-150,bty="n",pch=c(1,NA),lty=c(NA,1),col=c("black","red"),seg.len = 2,
+       legend=c("Sample point","Reference line"),cex=0.8)
 ```
 
 
