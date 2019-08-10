@@ -242,7 +242,7 @@ pm25_train=data('pm2.5_train')
 pm25_train['gindex']=np.array([i for i in range(pm25_train.shape[0])])
 ```
 ```{r eval=TRUE,echo=FALSE, message=FALSE, warning=FALSE}
-knitr::kable(py$pm25_train[c(1:5),], format = "html")
+knitr::kable(py$pm25_train[c(1:5),c(1:12)], format = "html")
 ```
 
 ###### 2) Set bagging path, list of predictor names, get the bagging class instance and input data: 
@@ -419,7 +419,7 @@ rmseens=rmse(ensepre$pm25_davg,ensepre$mean)
 print(paste("Ensemble predictions: R2=",round(r2ens,2),", RMSE=",round(rmseens,2),sep=""))
 print(paste("Mean performance of predictions of multiple single models: R2=",round(mean(allr2),2),", RMSE=",round(mean(allrmse),2),sep=""))
 print(paste("Ensemble predictions averagely improved the single predictions by ",
-               round(r2ens-mean(allr2),2)*100,"% for R2, and reduced ",round(rmseens-mean(allrmse),2),"mu/m3 for RMSE",sep=""))
+               round(r2ens-mean(allr2),2)*100,"% for R2, and reduced ",round(rmseens-mean(allrmse),2),"ug/m3 for RMSE",sep=""))
 
 ```
 

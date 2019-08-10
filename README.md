@@ -413,63 +413,6 @@ win
 <th style="text-align:right;">
 aod
 </th>
-<th style="text-align:left;">
-date
-</th>
-<th style="text-align:right;">
-haod
-</th>
-<th style="text-align:right;">
-shaod
-</th>
-<th style="text-align:right;">
-jd
-</th>
-<th style="text-align:right;">
-pblh\_re
-</th>
-<th style="text-align:right;">
-pre\_re
-</th>
-<th style="text-align:right;">
-o3\_re
-</th>
-<th style="text-align:right;">
-merra2\_re
-</th>
-<th style="text-align:right;">
-month
-</th>
-<th style="text-align:right;">
-season
-</th>
-<th style="text-align:right;">
-routine
-</th>
-<th style="text-align:right;">
-lat2
-</th>
-<th style="text-align:right;">
-lon2
-</th>
-<th style="text-align:right;">
-latlon
-</th>
-<th style="text-align:right;">
-pm25\_avg\_log
-</th>
-<th style="text-align:right;">
-siteFactor
-</th>
-<th style="text-align:right;">
-stratify
-</th>
-<th style="text-align:right;">
-pm25\_davgn
-</th>
-<th style="text-align:right;">
-gindex
-</th>
 </tr>
 </thead>
 <tbody>
@@ -513,63 +456,6 @@ gindex
 <td style="text-align:right;">
 0.2877372
 </td>
-<td style="text-align:left;">
-2015-09-11
-</td>
-<td style="text-align:right;">
-0.0002493
-</td>
-<td style="text-align:right;">
-0.0000596
-</td>
-<td style="text-align:right;">
-254
-</td>
-<td style="text-align:right;">
-1153.9781
-</td>
-<td style="text-align:right;">
-0.00e+00
-</td>
-<td style="text-align:right;">
-304.7577
-</td>
-<td style="text-align:right;">
-0.0701715
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-3
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-1615.654
-</td>
-<td style="text-align:right;">
-13509.41
-</td>
-<td style="text-align:right;">
-4671.888
-</td>
-<td style="text-align:right;">
-1.916923
-</td>
-<td style="text-align:right;">
-10
-</td>
-<td style="text-align:right;">
-10.9
-</td>
-<td style="text-align:right;">
-4.869974
-</td>
-<td style="text-align:right;">
-0
-</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -610,63 +496,6 @@ gindex
 </td>
 <td style="text-align:right;">
 0.2245625
-</td>
-<td style="text-align:left;">
-2015-01-16
-</td>
-<td style="text-align:right;">
-0.0003819
-</td>
-<td style="text-align:right;">
-0.0001312
-</td>
-<td style="text-align:right;">
-16
-</td>
-<td style="text-align:right;">
-588.0604
-</td>
-<td style="text-align:right;">
-2.00e-06
-</td>
-<td style="text-align:right;">
-381.0575
-</td>
-<td style="text-align:right;">
-0.0570400
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-4
-</td>
-<td style="text-align:right;">
-3
-</td>
-<td style="text-align:right;">
-1534.524
-</td>
-<td style="text-align:right;">
-13734.20
-</td>
-<td style="text-align:right;">
-4590.801
-</td>
-<td style="text-align:right;">
-4.437827
-</td>
-<td style="text-align:right;">
-14
-</td>
-<td style="text-align:right;">
-14.1
-</td>
-<td style="text-align:right;">
-85.777765
-</td>
-<td style="text-align:right;">
-1
 </td>
 </tr>
 <tr>
@@ -709,63 +538,6 @@ gindex
 <td style="text-align:right;">
 0.4272831
 </td>
-<td style="text-align:left;">
-2015-05-09
-</td>
-<td style="text-align:right;">
-0.0006895
-</td>
-<td style="text-align:right;">
-0.0003249
-</td>
-<td style="text-align:right;">
-129
-</td>
-<td style="text-align:right;">
-619.7123
-</td>
-<td style="text-align:right;">
-1.03e-04
-</td>
-<td style="text-align:right;">
-372.3307
-</td>
-<td style="text-align:right;">
-0.1360869
-</td>
-<td style="text-align:right;">
-5
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-1674.127
-</td>
-<td style="text-align:right;">
-13916.07
-</td>
-<td style="text-align:right;">
-4826.725
-</td>
-<td style="text-align:right;">
-3.057426
-</td>
-<td style="text-align:right;">
-52
-</td>
-<td style="text-align:right;">
-52.5
-</td>
-<td style="text-align:right;">
-20.691740
-</td>
-<td style="text-align:right;">
-2
-</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -807,63 +579,6 @@ gindex
 <td style="text-align:right;">
 0.5075859
 </td>
-<td style="text-align:left;">
-2015-04-12
-</td>
-<td style="text-align:right;">
-0.0003755
-</td>
-<td style="text-align:right;">
-0.0000713
-</td>
-<td style="text-align:right;">
-102
-</td>
-<td style="text-align:right;">
-1351.6859
-</td>
-<td style="text-align:right;">
-0.00e+00
-</td>
-<td style="text-align:right;">
-351.2422
-</td>
-<td style="text-align:right;">
-0.0943356
-</td>
-<td style="text-align:right;">
-4
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-1561.830
-</td>
-<td style="text-align:right;">
-13525.69
-</td>
-<td style="text-align:right;">
-4596.176
-</td>
-<td style="text-align:right;">
-2.492127
-</td>
-<td style="text-align:right;">
-91
-</td>
-<td style="text-align:right;">
-91.4
-</td>
-<td style="text-align:right;">
-10.959723
-</td>
-<td style="text-align:right;">
-3
-</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -904,63 +619,6 @@ gindex
 </td>
 <td style="text-align:right;">
 1.5149391
-</td>
-<td style="text-align:left;">
-2015-08-02
-</td>
-<td style="text-align:right;">
-0.0014270
-</td>
-<td style="text-align:right;">
-0.0001992
-</td>
-<td style="text-align:right;">
-214
-</td>
-<td style="text-align:right;">
-1061.6481
-</td>
-<td style="text-align:right;">
-8.00e-07
-</td>
-<td style="text-align:right;">
-282.9952
-</td>
-<td style="text-align:right;">
-0.0722227
-</td>
-<td style="text-align:right;">
-8
-</td>
-<td style="text-align:right;">
-2
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-1564.764
-</td>
-<td style="text-align:right;">
-13622.39
-</td>
-<td style="text-align:right;">
-4616.907
-</td>
-<td style="text-align:right;">
-4.162133
-</td>
-<td style="text-align:right;">
-59
-</td>
-<td style="text-align:right;">
-59.8
-</td>
-<td style="text-align:right;">
-65.177144
-</td>
-<td style="text-align:right;">
-4
 </td>
 </tr>
 </tbody>
@@ -1059,7 +717,7 @@ Performance digits:
 
     ## [1] "Mean performance of predictions of multiple single models: R2=0.86, RMSE=26.07"
 
-    ## [1] "Ensemble predictions averagely improved the single predictions by 6% for R2, and reduced -5.72mu/m3 for RMSE"
+    ## [1] "Ensemble predictions averagely improved the single predictions by 6% for R2, and reduced -5.72ug/m3 for RMSE"
 
 The boxplot shows considerable improvement by bagging (6% in R<sup>2</sup> and -5.72 *μ*g/m<sup>3</sup>), in comparison with single models.
 
