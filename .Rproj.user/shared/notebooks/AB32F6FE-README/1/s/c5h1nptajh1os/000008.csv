@@ -1,0 +1,1 @@
+"0","boxplot(nonres_m$testrmse,res_m$testrmse,names=c(""Non-residual Net"",""Residual Net""),ylab=""RMSE"")"

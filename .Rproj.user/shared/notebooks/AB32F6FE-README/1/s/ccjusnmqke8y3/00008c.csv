@@ -1,0 +1,3 @@
+"0","plot(respreds$pm25_davg,respreds$mean,ylim=c(0,700),"
+"0","     xlab=expression(""Observed PM""[2.5]*""(""*mu*""g/m""^3*"", residual model)""),"
+"0","     ylab=expression(""Predicted PM""[2.5]*mu*""g/m""^3))"

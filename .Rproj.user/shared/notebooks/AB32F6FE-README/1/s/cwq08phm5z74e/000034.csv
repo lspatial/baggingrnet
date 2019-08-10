@@ -1,0 +1,2 @@
+"0","plot(histnonres$epoch,histnonres$mean_squared_error,xlab=""Training epoch"",ylim=c(0,1),"
+"0","       ylab=""Mean squared error"",type=""l"",lty=2,col=""blue"")"

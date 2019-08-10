@@ -1,0 +1,1 @@
+"0","lines(histres$epoch,histres$val_mean_squared_error,col=""red"",lty=1) "

@@ -1,0 +1,4 @@
+"0","legend(5,0.5,lty=c(2,1,2,1),col=c(""red"",""red"",""blue"",""blue""),bty=""n"","
+"0","       legend=c(""Training of residual model"",""Validatiion of residual model"","
+"0","                ""Training of non-residual model"",""Validatiion of non-residual model""),"
+"0","       cex=0.9) "

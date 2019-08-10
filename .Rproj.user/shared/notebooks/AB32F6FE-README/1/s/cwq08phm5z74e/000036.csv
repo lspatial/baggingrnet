@@ -1,0 +1,1 @@
+"0","lines(histnonres$epoch,histnonres$val_mean_squared_error,col=""blue"",lty=1) "

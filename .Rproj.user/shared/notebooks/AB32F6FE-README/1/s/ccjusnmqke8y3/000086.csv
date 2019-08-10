@@ -1,0 +1,4 @@
+"0","par(mfrow=c(1,2),mar=c(4,4.3,1,1)) "
+"0","plot(nonrespreds$pm25_davg,nonrespreds$mean,ylim=c(0,700),"
+"0","         xlab=expression(""Observed PM""[2.5]*""(""*mu*""g/m""^3*"",non-residual model)""),"
+"0","         ylab=expression(""Predicted PM""[2.5]*mu*""g/m""^3))"

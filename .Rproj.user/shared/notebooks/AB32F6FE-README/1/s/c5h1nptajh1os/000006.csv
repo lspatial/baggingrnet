@@ -1,0 +1,6 @@
+"0","par(mfrow=c(1,2),mar=c(4,4,1,1)) "
+"0","tfl=""/testpath/baggingpm25_2/nores/allresult.csv"""
+"0","nonres_m=read.csv(tfl,row.names = NULL)"
+"0","tfl=""/testpath/baggingpm25_2/res/allresult.csv"""
+"0","res_m=read.csv(tfl,row.names = NULL)"
+"0","boxplot(nonres_m$testr2,res_m$testr2,names=c(""Non-residual Net"",""Residual Net""),ylab=expression(""R""^2))"
